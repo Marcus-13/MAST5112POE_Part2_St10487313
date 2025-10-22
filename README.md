@@ -60,9 +60,13 @@ To ptovide an easy-to-use digital solution for managing restaurant recipes, help
 - TypeScript for type-safe development
 
 ## References
+
 https://reactnative.dev/
+
 https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html
+
 https://reactnavigation.org/docs/getting-started
+
 https://advtechonline.sharepoint.com/:w:/r/sites/TertiaryStudents/_layouts/15/Doc.aspx?sourcedoc=%7BC4AAF478-96AC-4469-8005-F7CDC4A15EBB%7D&file=MAST5112MM.docx&action=default&mobileredirect=true
 
 
