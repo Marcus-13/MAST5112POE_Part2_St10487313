@@ -24,38 +24,29 @@ To ptovide an easy-to-use digital solution for managing restaurant recipes, help
 
 ## How to Run the App
 1. **Clone the repo:**
+   
    git clone https://github.com/Marcus-13/MAST5112POE_Part2_St10487313.git
 
 2. **Install dependencies:**
+   
    npm install
 
 3. **Install required packages:**
+   
    npm install @react-navigation/native @react-navigation/native-stack
    npx expo install react-native-screens react-native-safe-area-context
    npm install @react-native-picker/picker
    npx expo install @react-native-picker/picker
 
-4. **Start the development server**
+4. **Start the development server:**
+   
    npx expo start
 
 5. **Run on your device:**
+    
    - Open Expo Go app on your phone
    - Scan the QR code from the terminal
    - Wait for the app to load
-  
-## Project Structure:
-CheffTingz/
-├── src/
-│   ├── types/index.ts              # TypeScript type definitions
-│   ├── screens/
-│   │   ├── HomeScreen.tsx          # Main recipe list screen
-│   │   ├── AddRecipeScreen.tsx     # Add recipe form
-│   │   └── RecipeDetailScreen.tsx  # Recipe detail view
-│   └── navigation/
-│       └── AppNavigation.tsx       # Navigation setup
-├── App.tsx                         # Main app component
-├── package.json                    # Dependencies
-└── README.md                       # Documentation
 
 ## Design and Resources
 * **Figma:** Used for wireframes and UI design mockups
