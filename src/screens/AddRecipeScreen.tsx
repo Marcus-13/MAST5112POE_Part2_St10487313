@@ -42,7 +42,7 @@ export default function AddRecipeScreen({ navigation, menuItems, setMenuItems }:
 
     // Create new recipe object with form data (and a unique id)
     const newRecipe: MenuItem = {
-      id: Date.now().toString(), // simple unique id based on timestamp
+      id: Date.now().toString(),
       dishName: dishName.trim(),
       course,
       description: description.trim(),

@@ -63,7 +63,7 @@ export default function RecipeDetailScreen({ navigation, route }: Props) {
         {/* bottom back button for returning to recipe list */}
         <TouchableOpacity
           style={styles.bottomBackButton}
-          onPress={() => navigation.goBack()} // same nav as header back button
+          onPress={() => navigation.goBack()} 
         >
           <Text style={styles.bottomBackButtonText}>Back to Recipes</Text>
         </TouchableOpacity>

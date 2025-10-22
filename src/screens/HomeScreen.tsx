@@ -16,7 +16,7 @@ interface Props {
 export default function HomeScreen({ navigation, menuItems }: Props) {
   return (
     <View style={styles.container}>
-      <StatusBar barStyle="dark-content" backgroundColor="#B8E6E6" /> {/* set status bar style for consistent header appearance */}
+      <StatusBar barStyle="dark-content" backgroundColor="#B8E6E6" />
 
       {/* header section - including the recipe count */}
       <View style={styles.header}>
@@ -153,7 +153,6 @@ const styles = StyleSheet.create({
     borderRadius: 15,
   },
 
-
   // course badge colors
   starterBadge: {
     backgroundColor: '#4bbe94ff',
@@ -164,7 +163,6 @@ const styles = StyleSheet.create({
   dessertBadge: {
     backgroundColor: '#A8E6CF',
   },
-
 
   courseText: {
     fontSize: 12,

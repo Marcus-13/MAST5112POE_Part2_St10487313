@@ -3,12 +3,12 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { RootStackParamList, MenuItem } from '../types';
 
-// import all screen components for navigation
+
 import HomeScreen from '../screens/HomeScreen';
 import AddRecipeScreen from '../screens/AddRecipeScreen';
 import RecipeDetailScreen from '../screens/RecipeDetailScreen';
 
-// create typed stack navigator using RootStackParamList for type safety
+
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
 // Initial sample data to populate the app (provides immediate content on first load)
